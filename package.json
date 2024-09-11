@@ -1,0 +1,36 @@
+{
+  "name": "jobs-ejs",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.20.0",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.0",
+    "helmet": "^7.1.0",
+    "host-csrf": "^1.0.2",
+    "mongoose": "^8.6.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
